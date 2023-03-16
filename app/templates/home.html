@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Property Rates & Trends</title>
+
+</head>
+
+<link rel = 'stylesheet' href = 'css/style.css'>
+<link href="https://fonts.googleapis.com/css2?family=Baloo + Bhai&display=swap" rel="stylesheet">
+<style>
+    /* css Reset */
+    body{
+        font-family : "Baloo Bhai";
+         color : white;
+         margin : 0px;
+         padding : 0px;
+
+         background : url("../static/bg1.jpg");
+         background-size:cover;
+        }
+
+    .left{
+            display : inline block;
+
+            position: absolute;
+            left : 34px;
+            top : 20 px;
+    }
+
+    .left img{
+            width : 70px;
+            filter : invert(100%)
+    }
+
+    .left div{
+            text - align : centre;
+    }
+    .mid{
+            color : white;
+            display:block;
+            width : 36%;
+            margin : 20px auto;
+
+    }
+
+    .right{
+            position : absolute;
+            right : 34px;
+            top : 20px;
+            display : inline block;
+
+    }
+
+    .navbar{
+            display : inline-block;
+            }
+
+     .navbar li{
+            display : inline-block;
+
+     }
+
+     .navbar li a{
+            color : black;
+            text-decoration : none;
+            padding : 34px 23px;
+     }
+
+     .navbar li a:hover, .navbar li a.active{
+                 text-decoration : underline;
+                 color : white;
+
+     }
+
+     .btn {
+        font-family : "Baloo Bhai";
+            margin : 0px;
+            horizontal : 9px;
+            padding : 4px 14px;
+            border : 2px solid grey;
+            border-radius : 10 px;
+            font-size : 15px;
+            cursor : pointer;
+     }
+
+     .btn:hover {
+            background-color : white;
+     }
+
+     .container{
+
+    margin: 45px 223px;
+    padding: 2px 2px;
+    width: 50%;
+    border-radius: 2px;
+     }
+
+     input, select {
+     text-align: center;
+             font-family : "Baloo Bhai";
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.h1{
+     text-align: center;
+}
+
+.h3{
+    text-align : left;
+    left : 34px;
+    bottom : 4px;
+}
+
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height : 10%;
+   width: 100%;
+   background-color: Black;
+   color: white;
+   text-align: center;
+}
+
+
+</style>
+
+<body>
+<header class = "header">
+
+    <div class = 'left'>
+      <img src = '../static/logo.jpg' alt = ''>
+        <div>asteroidRIS Real Estate</div>
+    </div>
+
+    <div class = 'mid'>
+     <ul class = 'navbar'>
+            <li><a href = '#' class = 'active'>Home</a></li>
+            <li><a href = '#'>About Us</a></li>
+            <li><a href = '#'>Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class = 'right'>
+        <button class = 'btn'>Call Us Now</button>
+        <button class = 'btn'>Email Us</button>
+
+    </div>
+
+</header>
+
+    <div class = 'container'>
+        <h1 class = "h1">Property Rates & Price Trends</h1>
+
+        <form action="{{ url_for('predict')}}" method="POST">
+
+        <div class = "form-group">
+            <label for = 'name'> Name</label>
+
+           <input type = "text" name = 'name' id = 'name' placeholder="Your name...">
+        </div>
+
+
+
+        <div class = "form-group">
+            <label for="state">State</label>
+
+           <select name="state", id = "state" >
+            <option value="New Jersey">New Jersey</option>
+            <option value="New York ">New York </option>
+                <option value="Massachusetts">Massachusetts</option>
+                <option value="Connecticut">Connecticut</option>
+                <option value="New Hampshire">New Hampshire</option>
+                <option value="Vermont">Vermont</option>
+                <option value="Maine">Maine</option>
+                <option value="Rhode Island">Rhode Island</option>
+                <option value="Puerto Rico">Puerto Rico</option>
+                <option value="Pennsylvania">Pennsylvania</option>
+                <option value="Virgin Islands">Virgin Islands</option>
+            </select>
+
+         </div>
+
+
+        <div class = "form-group">
+            <label for = 'city'>City</label>
+            <input type="text" name = "city" id = 'city' placeholder="Your city...">
+        </div>
+
+
+
+        <div class = "form-group">
+            <label for = 'status'>Status</label>
+
+             <select name="status", id = "status" >
+            <option value="ready_to_build">Ready to build</option>
+            <option value="for_sale">For sale</option>
+
+            </select>
+
+        </div>
+
+
+        <div class = "form-group">
+            <label for = 'sold_date'> Sold Date</label>
+            <input type = "date" name = "sold_date", id = 'sold_date'>
+        </div>
+
+
+        <div class = "form-group">
+            <label for = 'street'>Street</label>
+            <input type="text" name = 'street' id = 'street' placeholder="Your street...">
+        </div>
+
+
+        <div class = "form-group">
+            <label for = 'full_address'>Full Address</label>
+            <input type = 'text' name = 'full_address' id = 'full_address' placeholder="Your full address..">
+        </div>
+
+
+        <div class = "form-group">
+            <label for = 'zip_code'>Zip Code</label>
+            <input type = "number" name = 'zip_code' id ='zip_code' placeholder="Your zip code..">
+        </div>
+
+
+
+        <div class = "form-group">
+            <label for = 'house_size'>Size of House</label>
+            <input type = "number" name = 'house_size'  id = 'house_size' placeholder="Your house size..">
+        </div>
+
+
+        <div class = "form-group">
+            <label for = 'acre_lot'>Lot Size</label>
+            <input type = "number" name = 'acre_lot' id = 'acre_lot' placeholder="Your lot size.." >
+        </div>
+
+
+        <div class = "form-group">
+            <label for = 'bed'>Number of Bedrooms</label>
+            <input type = "number" name = 'bed' id = 'bed' min = "1" max = "50" placeholder = "Your number of bedrooms">
+        </div>
+
+
+        <div class = "form-group">
+            <label for = 'bath'>Number of Bathroooms</label>
+            <input type = "number" name = 'bath' id = 'bath' min = "0" max = "50" placeholder="Your number of bathrooms">
+        </div>
+
+
+         <div class = 'form-group'>
+            <button class = 'btn'>Submit</button>
+             <button class = "btn">Reset</button>
+        </div>
+        </form>
+
+            <footer class = 'footer'>
+                <h3 class = 'h3'> Services</h3>
+
+
+            </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

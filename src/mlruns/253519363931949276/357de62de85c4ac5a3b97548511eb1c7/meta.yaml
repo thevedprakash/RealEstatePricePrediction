@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253519363931949276/357de62de85c4ac5a3b97548511eb1c7/artifacts
+end_time: 1678797649155
+entry_point_name: ''
+experiment_id: '253519363931949276'
+lifecycle_stage: active
+run_id: 357de62de85c4ac5a3b97548511eb1c7
+run_name: awesome-seal-944
+run_uuid: 357de62de85c4ac5a3b97548511eb1c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678797602851
+status: 3
+tags: []
+user_id: ris

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253616918474158468/5df5fb5824a24b25848062853cf3095d/artifacts
+end_time: 1678433277382
+entry_point_name: ''
+experiment_id: '253616918474158468'
+lifecycle_stage: active
+run_id: 5df5fb5824a24b25848062853cf3095d
+run_name: unique-lamb-993
+run_uuid: 5df5fb5824a24b25848062853cf3095d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678433232849
+status: 3
+tags: []
+user_id: ris

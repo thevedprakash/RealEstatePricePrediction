@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253519363931949276/92841a7c23844234b72f08170dc5669f/artifacts
+end_time: 1678797723567
+entry_point_name: ''
+experiment_id: '253519363931949276'
+lifecycle_stage: active
+run_id: 92841a7c23844234b72f08170dc5669f
+run_name: crawling-jay-375
+run_uuid: 92841a7c23844234b72f08170dc5669f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678797649683
+status: 3
+tags: []
+user_id: ris

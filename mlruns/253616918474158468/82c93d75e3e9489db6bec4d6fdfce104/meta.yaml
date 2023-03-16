@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253616918474158468/82c93d75e3e9489db6bec4d6fdfce104/artifacts
+end_time: 1678433353252
+entry_point_name: ''
+experiment_id: '253616918474158468'
+lifecycle_stage: active
+run_id: 82c93d75e3e9489db6bec4d6fdfce104
+run_name: puzzled-snake-730
+run_uuid: 82c93d75e3e9489db6bec4d6fdfce104
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678433277665
+status: 3
+tags: []
+user_id: ris

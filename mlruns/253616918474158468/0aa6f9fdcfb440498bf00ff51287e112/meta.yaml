@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253616918474158468/0aa6f9fdcfb440498bf00ff51287e112/artifacts
+end_time: 1678433352423
+entry_point_name: ''
+experiment_id: '253616918474158468'
+lifecycle_stage: active
+run_id: 0aa6f9fdcfb440498bf00ff51287e112
+run_name: amazing-wasp-613
+run_uuid: 0aa6f9fdcfb440498bf00ff51287e112
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678433277665
+status: 3
+tags: []
+user_id: ris

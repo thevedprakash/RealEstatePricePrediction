@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253616918474158468/dee325d41ee849dfa4d0740531b6000f/artifacts
+end_time: 1678433277577
+entry_point_name: ''
+experiment_id: '253616918474158468'
+lifecycle_stage: active
+run_id: dee325d41ee849dfa4d0740531b6000f
+run_name: stately-hen-646
+run_uuid: dee325d41ee849dfa4d0740531b6000f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678433232849
+status: 3
+tags: []
+user_id: ris

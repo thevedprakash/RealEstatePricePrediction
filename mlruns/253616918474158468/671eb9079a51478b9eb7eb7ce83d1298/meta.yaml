@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253616918474158468/671eb9079a51478b9eb7eb7ce83d1298/artifacts
+end_time: 1678433277382
+entry_point_name: ''
+experiment_id: '253616918474158468'
+lifecycle_stage: active
+run_id: 671eb9079a51478b9eb7eb7ce83d1298
+run_name: whimsical-shrike-277
+run_uuid: 671eb9079a51478b9eb7eb7ce83d1298
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678433232849
+status: 3
+tags: []
+user_id: ris

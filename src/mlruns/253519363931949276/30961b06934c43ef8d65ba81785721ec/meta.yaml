@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253519363931949276/30961b06934c43ef8d65ba81785721ec/artifacts
+end_time: 1678797649155
+entry_point_name: ''
+experiment_id: '253519363931949276'
+lifecycle_stage: active
+run_id: 30961b06934c43ef8d65ba81785721ec
+run_name: wistful-mole-545
+run_uuid: 30961b06934c43ef8d65ba81785721ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678797602851
+status: 3
+tags: []
+user_id: ris

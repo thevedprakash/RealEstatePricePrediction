@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253616918474158468/70a50866d34e4bc3963404b277b55e33/artifacts
+end_time: 1678433352423
+entry_point_name: ''
+experiment_id: '253616918474158468'
+lifecycle_stage: active
+run_id: 70a50866d34e4bc3963404b277b55e33
+run_name: sneaky-boar-111
+run_uuid: 70a50866d34e4bc3963404b277b55e33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678433277665
+status: 3
+tags: []
+user_id: ris

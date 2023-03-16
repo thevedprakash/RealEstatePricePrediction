@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253519363931949276/c979f19ba9b24f17b70e4a480deb2053/artifacts
+end_time: 1678797723567
+entry_point_name: ''
+experiment_id: '253519363931949276'
+lifecycle_stage: active
+run_id: c979f19ba9b24f17b70e4a480deb2053
+run_name: gregarious-ray-22
+run_uuid: c979f19ba9b24f17b70e4a480deb2053
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678797649683
+status: 3
+tags: []
+user_id: ris

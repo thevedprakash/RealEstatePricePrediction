@@ -1,0 +1,28 @@
+[2023-03-01T13:09:34.496+0530] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: example_task_group.section_2.inner_section_2.task_2 scheduled__2023-02-28T07:38:44.573022+00:00 [queued]>
+[2023-03-01T13:09:34.507+0530] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: example_task_group.section_2.inner_section_2.task_2 scheduled__2023-02-28T07:38:44.573022+00:00 [queued]>
+[2023-03-01T13:09:34.507+0530] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-01T13:09:34.507+0530] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-01T13:09:34.507+0530] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-01T13:09:34.524+0530] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): section_2.inner_section_2.task_2> on 2023-02-28 07:38:44.573022+00:00
+[2023-03-01T13:09:34.530+0530] {standard_task_runner.py:55} INFO - Started process 7656 to run task
+[2023-03-01T13:09:34.535+0530] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'example_task_group', 'section_2.inner_section_2.task_2', 'scheduled__2023-02-28T07:38:44.573022+00:00', '--job-id', '3', '--raw', '--subdir', '/home/ris/PycharmProjects/pythonProject/USA-housing/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py', '--cfg-path', '/tmp/tmpagni0duk']
+[2023-03-01T13:09:34.537+0530] {standard_task_runner.py:83} INFO - Job 3: Subtask section_2.inner_section_2.task_2
+[2023-03-01T13:09:34.607+0530] {task_command.py:388} INFO - Running <TaskInstance: example_task_group.section_2.inner_section_2.task_2 scheduled__2023-02-28T07:38:44.573022+00:00 [running]> on host ris
+[2023-03-01T13:09:34.677+0530] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_task_group
+AIRFLOW_CTX_TASK_ID=section_2.inner_section_2.task_2
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-28T07:38:44.573022+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-28T07:38:44.573022+00:00
+[2023-03-01T13:09:34.679+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-01T13:09:34.681+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo 1']
+[2023-03-01T13:09:34.698+0530] {subprocess.py:86} INFO - Output:
+[2023-03-01T13:09:34.700+0530] {subprocess.py:93} INFO - 1
+[2023-03-01T13:09:34.701+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-03-01T13:09:34.723+0530] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=example_task_group, task_id=section_2.inner_section_2.task_2, execution_date=20230228T073844, start_date=20230301T073934, end_date=20230301T073934
+[2023-03-01T13:09:34.746+0530] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-01T13:09:34.775+0530] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

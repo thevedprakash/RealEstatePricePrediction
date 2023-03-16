@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253519363931949276/28ba7d48db2344aeb46148388fe2a389/artifacts
+end_time: 1678797723567
+entry_point_name: ''
+experiment_id: '253519363931949276'
+lifecycle_stage: active
+run_id: 28ba7d48db2344aeb46148388fe2a389
+run_name: big-duck-441
+run_uuid: 28ba7d48db2344aeb46148388fe2a389
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678797649683
+status: 3
+tags: []
+user_id: ris

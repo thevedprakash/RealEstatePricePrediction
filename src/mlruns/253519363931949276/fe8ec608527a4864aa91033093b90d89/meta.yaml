@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253519363931949276/fe8ec608527a4864aa91033093b90d89/artifacts
+end_time: 1678797649155
+entry_point_name: ''
+experiment_id: '253519363931949276'
+lifecycle_stage: active
+run_id: fe8ec608527a4864aa91033093b90d89
+run_name: puzzled-turtle-48
+run_uuid: fe8ec608527a4864aa91033093b90d89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678797602851
+status: 3
+tags: []
+user_id: ris

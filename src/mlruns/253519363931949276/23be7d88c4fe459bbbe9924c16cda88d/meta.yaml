@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253519363931949276/23be7d88c4fe459bbbe9924c16cda88d/artifacts
+end_time: 1678797726138
+entry_point_name: ''
+experiment_id: '253519363931949276'
+lifecycle_stage: active
+run_id: 23be7d88c4fe459bbbe9924c16cda88d
+run_name: loud-midge-472
+run_uuid: 23be7d88c4fe459bbbe9924c16cda88d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678797649683
+status: 3
+tags: []
+user_id: ris

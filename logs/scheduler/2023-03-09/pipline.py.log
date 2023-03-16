@@ -1,0 +1,52 @@
+[2023-03-09T11:09:29.024+0530] {processor.py:153} INFO - Started process (PID=34968) to work on /home/ris/PycharmProjects/pythonProject/USA-housing/dags/pipline.py
+[2023-03-09T11:09:29.025+0530] {processor.py:743} INFO - Processing file /home/ris/PycharmProjects/pythonProject/USA-housing/dags/pipline.py for tasks to queue
+[2023-03-09T11:09:29.026+0530] {logging_mixin.py:137} INFO - [2023-03-09T11:09:29.026+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/ris/PycharmProjects/pythonProject/USA-housing/dags/pipline.py
+[2023-03-09T11:09:29.639+0530] {logging_mixin.py:137} INFO - data uploaded!
+[2023-03-09T11:09:33.715+0530] {logging_mixin.py:137} INFO - data uploaded!
+[2023-03-09T11:09:34.477+0530] {logging_mixin.py:137} INFO - Percentage of missing values column wise
+: status          0.000000
+price           0.000080
+bed             0.142610
+bath            0.124729
+acre_lot        0.296102
+full_address    0.000000
+street          0.002299
+city            0.000076
+state           0.000000
+zip_code        0.000214
+house_size      0.322883
+sold_date       0.505444
+dtype: float64
+[2023-03-09T11:09:34.677+0530] {logging_mixin.py:137} INFO - sanity check done!
+[2023-03-09T11:09:35.407+0530] {logging_mixin.py:137} INFO - handling of missing values done!
+[2023-03-09T11:09:35.667+0530] {logging_mixin.py:137} INFO - handling of outliers done!
+[2023-03-09T11:09:36.890+0530] {logging_mixin.py:137} INFO - encoding of categorical columns done!
+[2023-03-09T11:09:37.446+0530] {logging_mixin.py:137} INFO - Loading the Data.
+[2023-03-09T11:09:40.384+0530] {logging_mixin.py:137} INFO - data uploaded!
+[2023-03-09T11:09:40.385+0530] {logging_mixin.py:137} INFO - Starting Pre-processing of Data
+[2023-03-09T11:09:41.315+0530] {logging_mixin.py:137} INFO - Percentage of missing values column wise
+: status          0.000000
+price           0.000080
+bed             0.142610
+bath            0.124729
+acre_lot        0.296102
+full_address    0.000000
+street          0.002299
+city            0.000076
+state           0.000000
+zip_code        0.000214
+house_size      0.322883
+sold_date       0.505444
+dtype: float64
+[2023-03-09T11:09:41.491+0530] {logging_mixin.py:137} INFO - sanity check done!
+[2023-03-09T11:09:42.075+0530] {logging_mixin.py:137} INFO - handling of missing values done!
+[2023-03-09T11:09:42.185+0530] {logging_mixin.py:137} INFO - handling of outliers done!
+[2023-03-09T11:09:42.713+0530] {logging_mixin.py:137} INFO - encoding of categorical columns done!
+[2023-03-09T11:09:42.721+0530] {logging_mixin.py:137} INFO - Statrted Training the Linear_regression model.
+[2023-03-09T11:09:42.801+0530] {logging_mixin.py:137} INFO - 0.23781375560464457 0.23477918562758715
+[2023-03-09T11:09:42.802+0530] {logging_mixin.py:137} INFO - Saving the model.
+[2023-03-09T11:09:42.803+0530] {logging_mixin.py:137} INFO - Statrted Training the decisiontree model.
+[2023-03-09T11:09:59.028+0530] {logging_mixin.py:137} INFO - [2023-03-09T11:09:59.027+0530] {timeout.py:68} ERROR - Process timed out, PID: 34968
+[2023-03-09T11:10:31.428+0530] {logging_mixin.py:137} INFO - 0.9892396003371967 0.9353773484783289
+[2023-03-09T11:10:31.429+0530] {logging_mixin.py:137} INFO - Saving the model.
+[2023-03-09T11:10:31.432+0530] {logging_mixin.py:137} INFO - Statrted Training the knearestneighbour model.

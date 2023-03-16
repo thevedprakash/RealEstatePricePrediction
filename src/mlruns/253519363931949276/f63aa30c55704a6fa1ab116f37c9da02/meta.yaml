@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253519363931949276/f63aa30c55704a6fa1ab116f37c9da02/artifacts
+end_time: 1678797602716
+entry_point_name: ''
+experiment_id: '253519363931949276'
+lifecycle_stage: active
+run_id: f63aa30c55704a6fa1ab116f37c9da02
+run_name: placid-sow-848
+run_uuid: f63aa30c55704a6fa1ab116f37c9da02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678797600198
+status: 3
+tags: []
+user_id: ris

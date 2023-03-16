@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Property Rates & Trends</title>
+
+</head>
+
+<link rel = 'stylesheet' href = 'css/style.css'>
+<link href="https://fonts.googleapis.com/css2?family=Baloo + Bhai&display=swap" rel="stylesheet">
+<style>
+    /* css Reset */
+    body{
+        font-family : "Baloo Bhai";
+         color : white;
+         margin : 0px;
+         padding : 0px;
+
+         background : url("../static/bg1.jpg");
+         background-size:cover;
+        }
+
+    .left{
+            display : inline block;
+
+            position: absolute;
+            left : 34px;
+            top : 20 px;
+    }
+
+    .left img{
+            width : 70px;
+            filter : invert(100%)
+    }
+
+    .left div{
+            text - align : centre;
+    }
+    .mid{
+            color : white;
+            display:block;
+            width : 36%;
+            margin : 20px auto;
+
+    }
+
+    .right{
+            position : absolute;
+            right : 34px;
+            top : 20px;
+            display : inline block;
+
+    }
+
+    .navbar{
+            display : inline-block;
+            }
+
+     .navbar li{
+            display : inline-block;
+
+     }
+
+     .navbar li a{
+            color : black;
+            text-decoration : none;
+            padding : 34px 23px;
+     }
+
+     .navbar li a:hover, .navbar li a.active{
+                 text-decoration : underline;
+                 color : white;
+
+     }
+
+     .btn {
+        font-family : "Baloo Bhai";
+            margin : 0px;
+            horizontal : 9px;
+            padding : 4px 14px;
+            border : 2px solid grey;
+            border-radius : 10 px;
+            font-size : 15px;
+            cursor : pointer;
+     }
+
+     .btn:hover {
+            background-color : white;
+     }
+
+     .container{
+
+    margin: 45px 223px;
+    padding: 2px 2px;
+    width: 50%;
+    border-radius: 2px;
+     }
+
+     input, select {
+     text-align: center;
+             font-family : "Baloo Bhai";
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.h1{
+     text-align: center;
+}
+
+.h3{
+    text-align : left;
+    left : 34px;
+    bottom : 4px;
+}
+
+.h4{
+    text-align : center;
+    left : 34px;
+    bottom : 4px;
+}
+
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height : 10%;
+   width: 100%;
+   background-color: Black;
+   color: white;
+   text-align: center;
+}
+
+
+</style>
+
+<body>
+<header class = "header">
+
+    <div class = 'left'>
+      <img src = '../static/logo.jpg' alt = ''>
+        <div>asteroidRIS Real Estate</div>
+    </div>
+
+    <div class = 'mid'>
+     <ul class = 'navbar'>
+            <li><a href = '#' class = 'active'>Home</a></li>
+            <li><a href = '#'>About Us</a></li>
+            <li><a href = '#'>Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class = 'right'>
+        <button class = 'btn'>Call Us Now</button>
+        <button class = 'btn'>Email Us</button>
+
+    </div>
+
+</header>
+
+
+        {% if prediction %}
+            <h1 class = 'h4'> Expected price of your property is {{prediction}}</h1>
+        {% endif %}
+
+
+
+
+            <footer class = 'footer'>
+                <h3 class = 'h3'> Services</h3>
+
+
+            </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253616918474158468/e0d46cf7b4fb42a4822bbf7497a3bb96/artifacts
+end_time: 1678433352423
+entry_point_name: ''
+experiment_id: '253616918474158468'
+lifecycle_stage: active
+run_id: e0d46cf7b4fb42a4822bbf7497a3bb96
+run_name: spiffy-auk-50
+run_uuid: e0d46cf7b4fb42a4822bbf7497a3bb96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678433277665
+status: 3
+tags: []
+user_id: ris

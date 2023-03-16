@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253616918474158468/71f14415b40e4c50ad5eab4cf3f0d52b/artifacts
+end_time: 1678433352423
+entry_point_name: ''
+experiment_id: '253616918474158468'
+lifecycle_stage: active
+run_id: 71f14415b40e4c50ad5eab4cf3f0d52b
+run_name: resilient-squid-517
+run_uuid: 71f14415b40e4c50ad5eab4cf3f0d52b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678433277665
+status: 3
+tags: []
+user_id: ris
